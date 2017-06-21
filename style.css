@@ -1,8 +1,34 @@
-body  {
-  background-color:grey
+body, html {
+    height: 100%;
 }
 
-{
-  font-family:"Georgia";
-  font-size:30px;
+.image1, .image2, .image3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1 {
+  background-image: url("IMG_9925.png");
+  min-height: 100%;
+}
+
+.image2 {
+  background-image: url("IMG_3353.png");
+  min-height: 100%;
+  background-position: top;
+}
+
+.image3 {
+  background-image: url("IMG_1643.png");
+  min-height: 100%;
+}
+
+.welcome  {
+  text-align: center;
+  font-size:40px;
+  font-family: "avenir", Times, sans-serif;
+  text-decoration: none;
+
 }
